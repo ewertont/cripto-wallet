@@ -1,0 +1,51 @@
+:root {
+  --primaryColor: #00ff38;
+  --lightColor: #fff;
+  --darkColor: #000;
+  --primaryBorderColor: #008d1f;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--darkColor);
+}
+
+p,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: var(--lightColor);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.light {
+  color: var(--lightColor);
+}
+
+.primary {
+  color: var(--primaryColor);
+}
